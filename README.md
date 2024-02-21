@@ -5,8 +5,7 @@
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE). 
 This is a code repo for experiments in the paper "The continuous time-resource tradeoff scheduling problem with time windows" by Christian Artigues,
-Emmanuel Hébrard, Alain Quilliot, Hélène Toussaint.
-
+Emmanuel Hébrard, Alain Quilliot, annd Hélène Toussaint.
 
 ## Cite
 
@@ -32,13 +31,13 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Instances
 
-Instances are available in the data directory
+Instances are available in the data directory.
 
 The way instances have been generated is explained section 7.1 of the article.
 
 ## Replicating
 
-- To run the code, you will need to make sure that you have already installed Cplex.
+- To run the code, you will need to make sure that you have already installed CPLEX.
 - You will need CMake for compilation.
 
 To compile: 
@@ -55,10 +54,7 @@ This will create 3 executables :
  - flowHeur for running the flow-based heuristic method (see article section 5.2)
  - BB for running the exact Branch & Bound method (see article section 6)
 
-
-To execute:
-
-Examples:
+To execute, run the following:
 
 ```
 ./flowMip 15 10 2 => run the flow-based exact method on all files in the 'data' directory whose name starts with 'gen1_15_10_2'(10 instances)
@@ -66,8 +62,7 @@ Examples:
 ./BB 15 10 2 => run the Branch & Bound on all files in the 'data' directory whose name starts with 'gen1_15_10_2'(10 instances)
 ```
 
-The results are stored in files starting by "res_"
-
+The results are stored in files starting by "res_".
 
 ## Support
 
