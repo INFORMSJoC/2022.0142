@@ -30,7 +30,7 @@ Below is the BibTex for citing this snapshot of the repository.
 }  
 ```
 
-##Instances
+## Instances
 
 Instances are available in the data directory
 
@@ -66,7 +66,7 @@ Examples:
 ./BB 15 10 2 => run the Branch & Bound on all files in the 'data' directory whose name starts with 'gen1_15_10_2'(10 instances)
 ```
 
-The resultats are stored in files starting by "res_"
+The results are stored in files starting by "res_"
 
 
 ## Support
